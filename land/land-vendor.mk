@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/land/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/land/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/xiaomi/land/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/land/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/land/proprietary/bin/gx_fpcmd:system/bin/gx_fpcmd \
     vendor/xiaomi/land/proprietary/bin/gx_fpd:system/bin/gx_fpd \
@@ -33,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/land/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/land/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/xiaomi/land/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/xiaomi/land/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/land/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/xiaomi/land/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -46,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/xiaomi/land/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/land/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/land/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/land/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/land/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -211,18 +212,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/xiaomi/land/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/land/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/xiaomi/land/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
     vendor/xiaomi/land/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/land/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/xiaomi/land/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/xiaomi/land/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
+    vendor/xiaomi/land/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/xiaomi/land/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/land/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/land/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/xiaomi/land/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
     vendor/xiaomi/land/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
+    vendor/xiaomi/land/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/land/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/xiaomi/land/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/land/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/land/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
+    vendor/xiaomi/land/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/land/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/land/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/land/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -283,6 +289,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
